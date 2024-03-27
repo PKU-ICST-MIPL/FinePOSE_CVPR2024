@@ -1,1 +1,1 @@
-# https-github.com-PKUICST-MIPL-FinePOSE_CVPR2024
+# FinePOSE_CVPR2024
