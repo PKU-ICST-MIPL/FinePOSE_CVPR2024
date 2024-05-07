@@ -86,7 +86,7 @@ except OSError as e:
 
 # dataset loading
 print('Loading dataset...')
-dataset_path = '/home/guoyijie/h36m_data/data_3d_' + args.dataset + '.npz'
+dataset_path = './data/data_3d_' + args.dataset + '.npz'
 if args.dataset == 'h36m':
     from common.h36m_dataset import Human36mDataset
     dataset = Human36mDataset(dataset_path)
@@ -95,7 +95,7 @@ elif args.dataset.startswith('humaneva'):
     dataset = HumanEvaDataset(dataset_path)
 elif args.dataset.startswith('custom'):
     from common.custom_dataset import CustomDataset
-    dataset = CustomDataset('/home/guoyijie/h36m_data/data_2d_' + args.dataset + '_' + args.keypoints + '.npz')
+    dataset = CustomDataset('./data/data_2d_' + args.dataset + '_' + args.keypoints + '.npz')
 else:
     raise KeyError('Invalid dataset')
 
@@ -113,7 +113,7 @@ for subject in dataset.subjects():
             anim['positions_3d'] = positions_3d
 
 print('Loading 2D detections...')
-keypoints = np.load('/home/guoyijie/h36m_data/data_2d_' + args.dataset + '_' + args.keypoints + '.npz', allow_pickle=True)
+keypoints = np.load('./data/data_2d_' + args.dataset + '_' + args.keypoints + '.npz', allow_pickle=True)
 keypoints_metadata = keypoints['metadata'].item()
 keypoints_symmetry = keypoints_metadata['keypoints_symmetry']
 kps_left, kps_right = list(keypoints_symmetry[0]), list(keypoints_symmetry[1])

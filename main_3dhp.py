@@ -107,7 +107,7 @@ joints_left, joints_right = [5, 6, 7, 11, 12, 13], [2, 3, 4, 8, 9, 10]
 
 
 
-data_train = np.load("/home/guoyijie/data_ori_3dhp/data_train_3dhp_ori.npz", allow_pickle=True)['data'].item()
+data_train = np.load("./data/data_train_3dhp_ori.npz", allow_pickle=True)['data'].item()
 for seq in data_train.keys():
     for cam in data_train[seq][0].keys():
         anim = data_train[seq][0][cam]
@@ -125,7 +125,7 @@ for seq in data_train.keys():
         out_poses_2d_train[(subject_name, seq_name, cam)] = data_2d
 
 
-data_test = np.load("/home/guoyijie/data_ori_3dhp/data_test_3dhp_ori.npz", allow_pickle=True)['data'].item()
+data_test = np.load("./data/data_test_3dhp_ori.npz", allow_pickle=True)['data'].item()
 for seq in data_test.keys():
 
     anim = data_test[seq]
