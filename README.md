@@ -1,4 +1,4 @@
-# FinePOSE: Fine-Grained Prompt-Driven 3D Human Pose Estimation viaDiffusion Models [CVPR 2024 Highlight]
+# FinePOSE: Fine-Grained Prompt-Driven 3D Human Pose Estimation via Diffusion Models [CVPR 2024 Highlight]
 
 
 ## Dependencies
