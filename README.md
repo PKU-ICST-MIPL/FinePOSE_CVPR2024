@@ -1,5 +1,10 @@
-# FinePOSE: Fine-Grained Prompt-Driven 3D Human Pose Estimation via Diffusion Models [CVPR 2024 Highlight]
+# FinePOSE: Fine-Grained Prompt-Driven 3D Human Pose Estimation via Diffusion Models
 
+Created by [Jinglin Xu](https://xujinglin.github.io/), [Yijie Guo](), [Yuxin Peng](https://scholar.google.com/citations?user=mFsXPNYAAAAJ&hl=zh-CN)
+
+This repository contains the PyTorch implementation for FinePOSE. (CVPR 2024, Highlight)
+
+[[Project Page]]() [[arXiv]]()
 
 ## Dependencies
 
