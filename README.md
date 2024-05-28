@@ -51,7 +51,7 @@ python main_3dhp.py -c checkpoint/model_3dhp -gpu 0,1 --nolog --evaluate best_ep
 After that, the predicted 3D poses under P-Best, P-Agg, J-Best, J-Agg settings are saved as four files (`.mat`) in `./checkpoint`. To get the MPJPE, AUC, PCK metrics, you can evaluate the predictions by running a Matlab script `./3dhp_test/test_util/mpii_test_predictions_ori_py.m` (you can change 'aggregation_mode' in line 29 to get results under different settings). Then, the evaluation results are saved in `./3dhp_test/test_util/mpii_3dhp_evaluation_sequencewise_ori_{setting name}_t{iteration index}.csv`. You can manually average the three metrics in these files over six sequences to get the final results.
 
 ## Training from scratch
-Trained on 2*Nvidia RTX 4090.
+Trained on 2*NVIDIA RTX 4090.
 ### Human3.6M
 To train our model using the 2D keypoints obtained by CPN as inputs, please run:
 ```bash
