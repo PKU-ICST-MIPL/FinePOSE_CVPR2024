@@ -64,8 +64,8 @@ To train our model using the ground truth 2D poses as inputs, please run:
 python main_3dhp.py -c checkpoint/model_3dhp -gpu 0,1 --nolog
 ```
 
-
-
+### Pretrained Models
+[Baidu Netdisk](https://pan.baidu.com/s/17E_leXMUXMYJRzMAgpZCsw?pwd=0306)
 
 ## Acknowledgement
 Our code refers to the following repositories.
