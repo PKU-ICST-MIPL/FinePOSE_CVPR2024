@@ -6,6 +6,20 @@ This repository contains the PyTorch implementation for FinePOSE. (CVPR 2024, Hi
 
 [[Project Page]](https://pku-icst-mipl.github.io/FinePOSE_ProjectPage/) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_FinePOSE_Fine-Grained_Prompt-Driven_3D_Human_Pose_Estimation_via_Diffusion_Models_CVPR_2024_paper.pdf)
 
+## Overview
+
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="images/poster.png" width = "100%" alt=""/>
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;">
+  	</div>
+</center>
+
 ## Dependencies
 
 Make sure you have the following dependencies installed (python):
