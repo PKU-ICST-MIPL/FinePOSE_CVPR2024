@@ -4,7 +4,7 @@ Created by [Jinglin Xu](http://39.108.48.32/XuWebsite/), [Yijie Guo](https://git
 
 This repository contains the PyTorch implementation for FinePOSE. (CVPR 2024, Highlight)
 
-[[Project Page]](https://pku-icst-mipl.github.io/FinePOSE_ProjectPage/) [[arXiv]](https://arxiv.org/abs/2405.05216)
+[[Project Page]](https://pku-icst-mipl.github.io/FinePOSE_ProjectPage/) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Xu_FinePOSE_Fine-Grained_Prompt-Driven_3D_Human_Pose_Estimation_via_Diffusion_Models_CVPR_2024_paper.pdf)
 
 ## Dependencies
 
