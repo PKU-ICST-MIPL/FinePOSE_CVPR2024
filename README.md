@@ -84,13 +84,13 @@ python main_3dhp.py -c checkpoint/model_3dhp -gpu 0,1 --nolog
 
 ## Reference
 ```
-@InProceedings{Xu_2024_CVPR_fineparser, 
-author = {Xu, Jinglin and Yin, Sibo and Zhao, Guohao and Wang, Zishuo and Peng, Yuxin}, 
-title = {FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment}, 
-booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
-month = {June}, 
-year = {2024}, 
-pages = {14628-14637} 
+@InProceedings{Xu_2024_CVPR_finepose,
+    author    = {Xu, Jinglin and Guo, Yijie and Peng, Yuxin},
+    title     = {FinePOSE: Fine-Grained Prompt-Driven 3D Human Pose Estimation via Diffusion Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {561-570}
 }
 ```
 
