@@ -81,6 +81,19 @@ python main_3dhp.py -c checkpoint/model_3dhp -gpu 0,1 --nolog
 ### Pretrained Models
 [Baidu Netdisk](https://pan.baidu.com/s/17E_leXMUXMYJRzMAgpZCsw?pwd=0306)
 
+
+## Reference
+```
+@InProceedings{Xu_2024_CVPR_fineparser, 
+author = {Xu, Jinglin and Yin, Sibo and Zhao, Guohao and Wang, Zishuo and Peng, Yuxin}, 
+title = {FineParser: A Fine-grained Spatio-temporal Action Parser for Human-centric Action Quality Assessment}, 
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}, 
+month = {June}, 
+year = {2024}, 
+pages = {14628-14637} 
+}
+```
+
 ## Acknowledgement
 Our code refers to the following repositories.
 * [MotionDiffuse](https://github.com/mingyuan-zhang/MotionDiffuse)
