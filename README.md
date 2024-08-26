@@ -88,7 +88,6 @@ python main_3dhp.py -c checkpoint/model_3dhp -gpu 0,1 --nolog
     author    = {Xu, Jinglin and Guo, Yijie and Peng, Yuxin},
     title     = {FinePOSE: Fine-Grained Prompt-Driven 3D Human Pose Estimation via Diffusion Models},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    month     = {June},
     year      = {2024},
     pages     = {561-570}
 }
